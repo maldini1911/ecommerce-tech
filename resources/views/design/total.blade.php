@@ -1,0 +1,1 @@
+{{ $ordar->sum('count_shop') * $ordar->laptops['price'] }} USD

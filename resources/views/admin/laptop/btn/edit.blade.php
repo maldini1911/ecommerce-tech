@@ -1,0 +1,1 @@
+<a href="{{url('laptop/'.$id.'/edit')}}"> <i class="fa fa-edit btn btn-success"> </i> </a>

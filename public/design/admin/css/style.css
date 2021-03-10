@@ -1,0 +1,55 @@
+/** Start Datatables **/
+.block{width: 20%;margin: 10px}
+.box-header{background: #222;color:#fff;}
+.box-header h3{text-shadow: 1px 0px 1px #fff;display: inline;}
+.box-header .fa-cart-plus{color:chartreuse;font-size: 25px}
+.box-header .fa-edit{color:chartreuse;font-size: 25px;transform: translateY(2px)}
+.box-header .fa-user-plus{color:chartreuse;font-size: 25px}
+.box-header .fa-users{color:chartreuse;font-size: 25px;}
+#dataTableBuilder_length label:nth-child(1) {float: right;margin: 20px 30px}
+#dataTableBuilder_wrapper input[type="search"] {margin: 20px 0}
+#dataTableBuilder thead th{text-align: center}
+
+@media(max-width:768px)
+{
+    .block{width: 45%;}
+    .reload{width: 100%;}
+}
+@media(max-width:500px)
+{
+    .block{width: 100%;}
+    .reload{width: 100%;}
+    .full_delete h1{font-size: 18px}
+}
+/** End Datatables **/
+
+/** Start Navbar **/
+.sidebar-menu li:first-child
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+.main-sidebar i{color: chartreuse}
+.main-sidebar li{font-size: 18px;font-weight: bolder}
+.treeview-menu li{font-size: 16px;background: #000;margin: 5px 0;padding: 5px}
+.treeview-menu li a{font-weight: bolder;font-size: 14px}
+.main-sidebar{background-color:#605ca8;}
+/** End Navbar **/
+
+/** Start Menu **/
+.navbar{background-color:#605ca8;}
+.languages li a
+{
+    padding: 10px;
+    font-size: 18px;
+    transition: .5s
+}
+.languages li a:hover
+{
+    background-color:#605ca8;
+    border:0;
+    color: #fff;
+    outline: 0
+}
+/** End Menu **/

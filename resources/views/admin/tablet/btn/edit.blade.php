@@ -1,0 +1,1 @@
+<a href="{{url('tablet/'.$id.'/edit')}}"> <i class="fa fa-edit btn btn-success"> </i> </a>
